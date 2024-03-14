@@ -1,0 +1,37 @@
+.error {
+    padding: 10px;
+    color: red;
+    border: 1px dotted crimson;
+}
+
+.success {
+    padding: 10px;
+    color: limegreen;
+    border: 1px dotted limegreen;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todos-btn {
+    background:dodgerblue;
+    border: none;
+    width: 120px;
+    height: 30px;
+    color: white;
+}
+
+.todos {
+    color: white;
+    background:mediumorchid;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
